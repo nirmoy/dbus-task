@@ -1,0 +1,4 @@
+AM_CFLAGS= @DBUS_CFLAGS@
+AM_LDFLAGS= @DBUS_LIBS@
+bin_PROGRAMS = server
+server_SOURCES = example.c
