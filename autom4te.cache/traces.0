@@ -1043,7 +1043,7 @@ m4trace:configure.ac:16: -1- m4_pattern_allow([^GREP$])
 m4trace:configure.ac:16: -1- m4_pattern_allow([^EGREP$])
 m4trace:configure.ac:16: -1- m4_pattern_allow([^STDC_HEADERS$])
 m4trace:configure.ac:19: -1- m4_pattern_allow([^HAVE__BOOL$])
-m4trace:configure.ac:24: -1- PKG_CHECK_MODULES([DBUS], [dbus-1 >= $DBUS_REQUIRED dbus-glib-1 >= $DBUS_GLIB_REQUIRED])
+m4trace:configure.ac:24: -1- PKG_CHECK_MODULES([DBUS], [dbus-1 >= $DBUS_REQUIRED ])
 m4trace:configure.ac:24: -1- PKG_PROG_PKG_CONFIG
 m4trace:configure.ac:24: -1- m4_pattern_forbid([^_?PKG_[A-Z_]+$])
 m4trace:configure.ac:24: -1- m4_pattern_allow([^PKG_CONFIG(_(PATH|LIBDIR|SYSROOT_DIR|ALLOW_SYSTEM_(CFLAGS|LIBS)))?$])
@@ -1054,9 +1054,9 @@ m4trace:configure.ac:24: -1- m4_pattern_allow([^PKG_CONFIG_LIBDIR$])
 m4trace:configure.ac:24: -1- m4_pattern_allow([^PKG_CONFIG$])
 m4trace:configure.ac:24: -1- m4_pattern_allow([^DBUS_CFLAGS$])
 m4trace:configure.ac:24: -1- m4_pattern_allow([^DBUS_LIBS$])
-m4trace:configure.ac:24: -1- PKG_CHECK_EXISTS([dbus-1 >= $DBUS_REQUIRED dbus-glib-1 >= $DBUS_GLIB_REQUIRED], [pkg_cv_[]DBUS_CFLAGS=`$PKG_CONFIG --[]cflags "dbus-1 >= $DBUS_REQUIRED dbus-glib-1 >= $DBUS_GLIB_REQUIRED" 2>/dev/null`
+m4trace:configure.ac:24: -1- PKG_CHECK_EXISTS([dbus-1 >= $DBUS_REQUIRED ], [pkg_cv_[]DBUS_CFLAGS=`$PKG_CONFIG --[]cflags "dbus-1 >= $DBUS_REQUIRED " 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:24: -1- PKG_CHECK_EXISTS([dbus-1 >= $DBUS_REQUIRED dbus-glib-1 >= $DBUS_GLIB_REQUIRED], [pkg_cv_[]DBUS_LIBS=`$PKG_CONFIG --[]libs "dbus-1 >= $DBUS_REQUIRED dbus-glib-1 >= $DBUS_GLIB_REQUIRED" 2>/dev/null`
+m4trace:configure.ac:24: -1- PKG_CHECK_EXISTS([dbus-1 >= $DBUS_REQUIRED ], [pkg_cv_[]DBUS_LIBS=`$PKG_CONFIG --[]libs "dbus-1 >= $DBUS_REQUIRED " 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
 m4trace:configure.ac:24: -1- _PKG_SHORT_ERRORS_SUPPORTED
 m4trace:configure.ac:25: -1- m4_pattern_allow([^DBUS_CFLAGS$])

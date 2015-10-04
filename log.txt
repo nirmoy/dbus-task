@@ -1,0 +1,2 @@
+Fri Oct  2 18:58:15 2015 Calling remote method with --leak-check=full
+ [example.c][line: 20] 
